@@ -277,6 +277,10 @@ float: center;
 .about_cp {
   text-align: center;
 }
+  #id {
+    margin-left: 2%;
+     margin-right: 2%;
+  }
 }
 
 
