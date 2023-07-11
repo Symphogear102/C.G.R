@@ -142,6 +142,9 @@ video {
 .fa-youtube:hover {
   color: #d5d5d5;
 }
+.fa-bars {
+  color: white;
+}
 footer {
   background-color: black;
   color: #d5d5d5;
