@@ -211,12 +211,6 @@ hr.light-100 {
     font-size: 4em;
     padding: 2rem;
   }
-  .img-fluid {
-text-align: center;
-}
-.image_about {
-margin-left: 5%;
-}
 
   }
 
@@ -278,7 +272,7 @@ margin-left: 10%;
     padding: .7rem;
   }
 .img-fluid {
-text-align: center;
+float: center;
 }
 .about_cp {
   text-align: center;
