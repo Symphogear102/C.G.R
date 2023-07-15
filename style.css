@@ -214,6 +214,12 @@ hr.light-100 {
     font-size: 4em;
     padding: 2rem;
   }
+  .img-fluid {
+text-align: center;
+}
+.image_about {
+margin-right: 10%;
+}
 
   }
 
@@ -245,7 +251,6 @@ hr.light-100 {
   }
   .img-fluid {
 text-align: center;
-margin-left: 10%;
 }
 }
 
@@ -275,15 +280,11 @@ margin-left: 10%;
     padding: .7rem;
   }
 .img-fluid {
-float: center;
+margin-left: 300%;
 }
 .about_cp {
   text-align: center;
 }
-  #id {
-    margin-left: 2%;
-     margin-right: 2%;
-  }
 }
 
 
