@@ -15,10 +15,6 @@ video {
 .part_cgr {
   float: center;
 }
-.image_cgr {
-   text-align: center;
-    display: block;
-}
 .navbar {
   padding: .8rem;
 }
@@ -280,12 +276,42 @@ text-align: center;
     padding: .7rem;
   }
 .img-fluid {
-margin-left: 300%;
+margin-left: 5%;
 }
 .about_cp {
   text-align: center;
+} 
 }
+
+
+.image_cgr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.image_cgr .image {
+  max-width: 50%;
+  height: auto;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 767px) {
+  .image_cgr {
+    flex-direction: column;
+    max-width: 100%;
+    height: auto;
+  }
+  #about {
+    margin-left: 1%;
+    margin-right: 1%;
+    text-align: center;
+  }
+  .about_header{
+    text-align: center;
+  }
+}
+
 
 
 /*---Firefox Bug Fix --*/
